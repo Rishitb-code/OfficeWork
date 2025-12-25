@@ -1,0 +1,24 @@
+<odoo>
+    <!-- Root Menu -->
+    <menuitem
+        id="menu_student_management_root"
+        name="Student Management"
+        sequence="10"
+    />
+
+    <!-- Student Menu -->
+    <menuitem
+        id="menu_student"
+        name="Students"
+        parent="menu_student_management_root"
+        action="action_student_management"
+    />
+
+    <!-- Course Menu -->
+    <menuitem
+        id="menu_course"
+        name="Courses"
+        parent="menu_student_management_root"
+        action="action_course_model"
+    />
+</odoo>
